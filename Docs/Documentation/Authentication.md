@@ -16,7 +16,7 @@ the request to have a identity.
 If you prefer to load the component yourself you can set 'Auth.AuthenticationComponent.load':
 
 ```
-Configure:write('Auth.AuthenticationComponent.load', false);
+Configure::write('Auth.AuthenticationComponent.load', false);
 ```
 
 And load the component at any controller:
